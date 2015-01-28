@@ -1,0 +1,20 @@
+<div class="container">
+  <h1>login page</h1>
+  <a href="/">home<a>  | <a href="/logout">logout<a>
+  <p>login to view the <a href="secretpage">secret page</a></p>
+  <p>u kenot login? why not <a href="create">create</a> a akaun fes ???</p>
+
+  <form action="login" method="post">
+  Username:<br>
+  <input type="text" name="username">
+  <br>
+  Passwerd:<br>
+  <input type="password" name="pwd">
+  <input type="submit" value="Login la">
+  </form>
+
+  <p>login? <%= session['pss'] %></p>
+
+
+
+</div>
